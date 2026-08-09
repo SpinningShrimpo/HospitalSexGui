@@ -1,0 +1,10 @@
+-- Auto-execute by game ID
+local placeId = game.PlaceId
+
+if placeId == 16552821455 then
+    -- Game 1: Boxten Sex GUI
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Team-Noxious/Roblox/refs/heads/main/Loader.lua"))("Boxten Sex GUI")
+elseif placeId == 104522435597696 then
+    -- Game 2: HospitalSec
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Team-Noxious/Roblox/refs/heads/main/Loader.lua"))("HospitalSec")
+end
